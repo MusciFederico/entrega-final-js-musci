@@ -64,8 +64,8 @@ ul>li>a {
 }
 
 header>nav>ul>li>a:hover {
-        color: rgb(145, 145, 145);
-        transition: 500ms;
+    color: rgb(145, 145, 145);
+    transition: 500ms;
 }
 
 p {
@@ -102,20 +102,20 @@ main>a {
 }
 
 main>a:hover {
-        border: none;
-        background-color: rgb(216, 211, 203);
-        transition: 300ms;
-        color: black;
+    border: none;
+    background-color: rgb(216, 211, 203);
+    transition: 300ms;
+    color: black;
 }
 
 .main-video {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .main-colores-imagenes>img {
-width: 35%;
+    width: 35%;
 }
 
 .main-colores-imagenes {
@@ -124,17 +124,17 @@ width: 35%;
     gap: .625rem;
 }
 
-.main-caracteristicas>img{
-display: flex;
-justify-content: center;
-width: 100%;
+.main-caracteristicas>img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .main-acercade>img {
     display: flex;
     justify-content: center;
     width: 100%;
-    }
+}
 
 footer>section {
     display: flex;
@@ -142,7 +142,8 @@ footer>section {
     justify-content: space-evenly;
     align-items: center;
 }
-footer>section>div>ul{
+
+footer>section>div>ul {
     list-style: none;
     display: flex;
     gap: .625rem;
@@ -151,64 +152,49 @@ footer>section>div>ul{
 footer>section>div>ul>li>a {
     font-size: 18px;
 }
+
 footer>section>div>ul>li>a>i {
     font-size: 4.25rem;
 }
 
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     header {
         flex-direction: column;
         gap: .625rem;
     }
+
     main>h1 {
         margin-top: 5rem;
     }
+
     main>a {
         margin-top: 5rem;
     }
-}    
-@media (max-width: 762px){
-    header>nav>ul  {
+}
+
+@media (max-width: 762px) {
+    header>nav>ul {
         flex-direction: column;
         gap: .625rem;
     }
+
     footer>section>div>ul>li>a>i {
         font-size: 2.875rem;
     }
+
     .footer-contact>ul {
         display: flex;
         flex-direction: column;
-    }   
+    }
 }
-@media (max-width: 474px){
+
+@media (max-width: 474px) {
     main>h1 {
         margin-top: 0px;
     }
+
     main>a {
         margin-top: 0px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
