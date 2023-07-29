@@ -1,0 +1,16 @@
+@media (max-width: 1080px) {
+    header {
+        flex-direction: column;
+        gap: .625rem;
+    }
+
+    main {
+        h1 {
+            margin-top: 5rem;
+        }
+
+        a {
+            margin-top: 5rem;
+        }
+    }
+}

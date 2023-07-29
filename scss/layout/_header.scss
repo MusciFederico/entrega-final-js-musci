@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+    .header-image {
+        text-align: center;
+
+        a>img {
+            width: 50%;
+        }
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+
+        ul {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+
+            li {
+                list-style: none;
+                transition: 500ms;
+
+                a:hover {
+                    color: $color-hover;
+                    transition: 500ms;
+                }
+            }
+        }
+    }
+}

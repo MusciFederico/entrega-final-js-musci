@@ -1,0 +1,17 @@
+@media (max-width: 762px) {
+    header>nav>ul {
+        flex-direction: column;
+        gap: .625rem;
+    }
+
+    footer>section {
+        .footer-contact>ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div>ul>li>a>i {
+            font-size: 2.875rem;
+        }
+    }
+}

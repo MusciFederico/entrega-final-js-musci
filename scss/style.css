@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap%27");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+header .header-image {
+  text-align: center;
+}
+header .header-image a > img {
+  width: 50%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  list-style: none;
+  transition: 500ms;
+}
+header nav ul li a:hover {
+  color: rgb(145, 145, 145);
+  transition: 500ms;
+}
+
+main h1 {
+  margin-top: 10rem;
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+main h2 {
+  color: rgb(0, 0, 0);
+}
+main span {
+  font-size: 24px;
+  font-weight: 800;
+  display: block;
+}
+main p {
+  font-size: 20px;
+}
+main a {
+  text-decoration: none;
+  display: flex;
+  margin: auto;
+  place-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 50px;
+  border: 3px solid rgb(216, 211, 203);
+  margin-top: 10rem;
+  transition: 300ms;
+  text-transform: uppercase;
+}
+main a:hover {
+  border: none;
+  background-color: rgb(216, 211, 203);
+  transition: 300ms;
+  color: rgb(0, 0, 0);
+}
+
+.fondoPrincipal {
+  background-image: url("../assets/img/Sillon-relax-piel-Bremen-HIMOLLA-VIDAFEL-Sofas.jpg");
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+  padding: 0.01em;
+}
+
+.main-video {
+  display: flex;
+  justify-content: center;
+}
+
+.main-caracteristicas > img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-colores-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+}
+.main-colores-imagenes img {
+  width: 35%;
+}
+
+.main-acercade > img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer > section {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer > section div > ul {
+  list-style: none;
+  display: flex;
+  gap: 0.625rem;
+}
+footer > section div > ul li > a {
+  font-size: 18px;
+}
+footer > section div > ul li > a i {
+  font-size: 4.25rem;
+}
+
+ul > li > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 1080px) {
+  header {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  main h1 {
+    margin-top: 5rem;
+  }
+  main a {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 762px) {
+  header > nav > ul {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  footer > section .footer-contact > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer > section div > ul > li > a > i {
+    font-size: 2.875rem;
+  }
+}
+@media (max-width: 474px) {
+  main h1 {
+    margin-top: 0px;
+  }
+  main a {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */

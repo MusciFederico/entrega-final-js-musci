@@ -1,0 +1,9 @@
+.main-colores-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: .625rem;
+
+    img {
+        width: 35%;
+    }
+}
