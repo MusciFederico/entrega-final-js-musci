@@ -17,6 +17,10 @@ main {
         font-size: 20px;
     }
 
+    em {
+        font-style: normal;
+    }
+
     a {
         @include flex (row, nowrap, center, center);
         text-decoration: none;

@@ -65,6 +65,9 @@ main h2 {
 main p {
   font-size: 20px;
 }
+main em {
+  font-style: normal;
+}
 main a {
   display: flex;
   flex-direction: row;
