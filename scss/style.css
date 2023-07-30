@@ -109,18 +109,6 @@ main a:hover {
   align-items: center;
 }
 
-.main-colores-imagenes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: space-evenly;
-  gap: 0.625rem;
-}
-.main-colores-imagenes img {
-  width: 35%;
-}
-
 footer > section div > ul {
   display: flex;
   flex-direction: row;

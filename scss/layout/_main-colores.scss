@@ -1,8 +1,0 @@
-.main-colores-imagenes {
-    @include flex (row, nowrap, center, space-evenly);
-    gap: .625rem;
-
-    img {
-        width: 35%;
-    }
-}
