@@ -11,34 +11,41 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-header {
+header, footer > section, .main-acercade > img, .main-caracteristicas > img {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
-  width: 100%;
-  height: auto;
   align-items: center;
+  width: 100%;
 }
-header .header-image {
+header .header-image, footer > section .header-image, .main-acercade > img .header-image, .main-caracteristicas > img .header-image {
   text-align: center;
 }
-header .header-image a > img {
+header .header-image a > img, footer > section .header-image a > img, .main-acercade > img .header-image a > img, .main-caracteristicas > img .header-image a > img {
   width: 50%;
 }
-header nav {
-  width: 100%;
+header nav, footer > section nav, .main-acercade > img nav, .main-caracteristicas > img nav {
   display: flex;
-}
-header nav ul {
-  display: flex;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  width: 100%;
 }
-header nav ul li {
+header nav ul, footer > section nav ul, .main-acercade > img nav ul, .main-caracteristicas > img nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+header nav ul li, footer > section nav ul li, .main-acercade > img nav ul li, .main-caracteristicas > img nav ul li {
   list-style: none;
   transition: 500ms;
 }
-header nav ul li a:hover {
+header nav ul li a:hover, footer > section nav ul li a:hover, .main-acercade > img nav ul li a:hover, .main-caracteristicas > img nav ul li a:hover {
   color: rgb(145, 145, 145);
   transition: 500ms;
 }
@@ -51,8 +58,6 @@ main h1 {
 }
 main h2 {
   color: rgb(0, 0, 0);
-}
-main span {
   font-size: 24px;
   font-weight: 800;
   display: block;
@@ -61,11 +66,14 @@ main p {
   font-size: 20px;
 }
 main a {
-  text-decoration: none;
   display: flex;
-  margin: auto;
-  place-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
+  text-decoration: none;
+  place-content: center;
+  margin: auto;
   color: rgb(255, 255, 255);
   width: 300px;
   height: 50px;
@@ -95,40 +103,32 @@ main a:hover {
 
 .main-video {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
-}
-
-.main-caracteristicas > img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  align-items: center;
 }
 
 .main-colores-imagenes {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: space-evenly;
   gap: 0.625rem;
 }
 .main-colores-imagenes img {
   width: 35%;
 }
 
-.main-acercade > img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-footer > section {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-}
 footer > section div > ul {
-  list-style: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   gap: 0.625rem;
+  list-style: none;
 }
 footer > section div > ul li > a {
   font-size: 18px;
@@ -147,7 +147,7 @@ ul > li > a {
 }
 
 @media (max-width: 1080px) {
-  header {
+  header, .main-caracteristicas > img, .main-acercade > img, footer > section {
     flex-direction: column;
     gap: 0.625rem;
   }
@@ -157,14 +157,16 @@ ul > li > a {
   main a {
     margin-top: 5rem;
   }
+  footer section {
+    flex-direction: row;
+  }
 }
 @media (max-width: 762px) {
-  header > nav > ul {
+  header > nav > ul, .main-caracteristicas > img > nav > ul, .main-acercade > img > nav > ul, footer > section > nav > ul {
     flex-direction: column;
     gap: 0.625rem;
   }
   footer > section .footer-contact > ul {
-    display: flex;
     flex-direction: column;
   }
   footer > section div > ul > li > a > i {

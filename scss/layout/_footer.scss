@@ -1,13 +1,10 @@
 footer>section {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
+    @extend header;
 
     div>ul {
-        list-style: none;
-        display: flex;
+        @include flex (row, nowrap, center, center);
         gap: .625rem;
+        list-style: none;
 
         li>a {
             font-size: 18px;

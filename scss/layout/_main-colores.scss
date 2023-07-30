@@ -1,6 +1,5 @@
 .main-colores-imagenes {
-    display: flex;
-    justify-content: center;
+    @include flex (row, nowrap, center, space-evenly);
     gap: .625rem;
 
     img {
