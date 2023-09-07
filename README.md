@@ -13,6 +13,7 @@ Este repositorio usa:
 - SASS
 - GIT GITHUB
 - BOOTSTRAP
+- JS
 
 [![](https://evrodom-vl.ru/wa-data/public/shop/products/46/04/446/images/2584/2584.970.jpg)](https://evrodom-vl.ru/wa-data/public/shop/products/46/04/446/images/2584/2584.970.jpg)
 
