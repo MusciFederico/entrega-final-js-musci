@@ -68,7 +68,7 @@ main p {
 main em {
   font-style: normal;
 }
-main a {
+main .botonContacto {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -85,7 +85,7 @@ main a {
   transition: 300ms;
   text-transform: uppercase;
 }
-main a:hover {
+main .botonContacto:hover {
   border: none;
   background-color: rgb(216, 211, 203);
   transition: 300ms;
@@ -110,6 +110,11 @@ main a:hover {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.desactivado {
+  display: none;
+  pointer-events: none;
 }
 
 footer > section div > ul {
