@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Elegancia Suprema",
+        "precio": "$50",
+        "descripcion": "¡Descubre la magnificencia de nuestro producto Elegancia Suprema! Esta joya de diseño cuenta con detalles exquisitos y una calidad inigualable.",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2018/04/7627-BLANCO-INCLINADO.jpg",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Estilo Vanguardista",
+        "precio": "$60",
+        "descripcion": "Sumérgete en la belleza del producto Estilo Vanguardista. Su diseño vanguardista y su estilo único te cautivarán desde el primer momento.",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2018/04/7627-ROJO-INCLINADO.jpg",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Obra Maestra",
+        "precio": "$70",
+        "descripcion": "¡Obra Maestra, la elección de los conocedores! Con características especiales y un diseño meticuloso, esta pieza es una auténtica obra maestra.",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2021/03/7052-cerrado-marr%C3%B3n.jpg",
+        "stock": 8
+    },
+    {
+        "id": 4,
+        "nombre": "Singularidad Exclusiva",
+        "precio": "$80",
+        "descripcion": "Explora la singularidad con el producto Singularidad Exclusiva. Este artículo exclusivo es perfecto para quienes buscan lo extraordinario.",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2021/03/7052-portada-1.jpg",
+        "stock": 12
+    },
+    {
+        "id": 5,
+        "nombre": "Distinción Premium",
+        "precio": "$100",
+        "descripcion": "¡Bienvenido al mundo de la distinción! Distinción Premium es nuestro producto premium que te dejará sin aliento. ¡No querrás perdértelo!",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2021/03/7052-azulado-abierto.jpg",
+        "stock": 15
+    },
+    {
+        "id": 6,
+        "nombre": "Versatilidad Interior",
+        "precio": "$120",
+        "descripcion": "Versatilidad Interior: la elección perfecta para tu espacio interior. Con su diseño meticuloso y versatilidad, es ideal para uso en interiores.",
+        "imagen": "https://www.nesseninteriors.com/wp-content/uploads/2021/03/7052-kiwi-arriba.jpg",
+        "stock": 7
+    }
+]

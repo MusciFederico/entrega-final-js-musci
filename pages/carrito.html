@@ -45,9 +45,7 @@
                         <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
                         <span class="badge bg-danger" id="carritoBadge">0</span>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="carritoDropdown" id="carrito">
-                        <!-- Elementos del carrito se agregarán aquí -->
-                    </ul>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="carritoDropdown" id="carrito"></ul>
                     <div id="mensajeCarritoVacio">El carrito esta vacio</div>
                     <div id="totalCarrito">Total: $0.00</div>
                     <button id="finalizarCompra" type="button" class="btn btn-outline-secondary btn-sm">Finalizar
@@ -57,68 +55,9 @@
         </nav>
     </header>
     <main>
-        <section class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="0">Añadir al carrito</a>
-                </div>
-            </div>
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="1">Añadir al carrito</a>
-                </div>
-            </div>
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="2">Añadir al carrito</a>
-                </div>
-            </div>
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="3">Añadir al carrito</a>
-                </div>
-            </div>
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="4">Añadir al carrito</a>
-                </div>
-            </div>
-            <div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
-                <img src="../assets/img/7627-BLANCO-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Nombre producto</h5>
-                    <p class="card-text">Descripción genérica y petersa</p>
-                    <div class="card-header">Precio</div>
-                    <!-- Agregamos el atributo data-producto con la información del producto -->
-                    <a href="#" class="btn btn-outline-secondary" data-producto="5">Añadir al carrito</a>
-                </div>
-            </div>
-        </section>
+        <div class="container">
+            <div class="row" id="card-container"></div>
+        </div>
     </main>
     <footer id="contact">
         <div>
